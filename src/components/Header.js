@@ -3,9 +3,9 @@ import { IoSearchSharp } from 'react-icons/io5';
 import { IoClose } from 'react-icons/io5';
 import { MdArrowDropDown } from 'react-icons/md';
 import { CgMenuLeft } from 'react-icons/cg';
-import { behance_logo } from '../Data';
-import { adobe_cloude } from '../Data';
-import { adobeLogo } from '../Data';
+// import { behance_logo } from '../Data';
+// import { adobe_cloude } from '../Data';
+// import { adobeLogo } from '../Data';
 import { searchType } from '../Data';
 import { tagName } from '../Data';
 
@@ -44,7 +44,7 @@ const Header = () => {
                                     <div className="phone-menu pr-3 text-2xl cursor-pointer block lg:hidden" onClick={() => openMenu()}>
                                         <CgMenuLeft />
                                     </div>
-                                    <img src={behance_logo} alt={behance_logo} className="w-auto h-4" />
+                                    {/* <img src={behance_logo} alt={behance_logo} className="w-auto h-4" /> */}
                                     <div className="page-links  lg:ml-8 hidden lg:block">
                                         <ul className='flex items-center'>
                                             <li className='mx-3 font-medium text-md active'><a href="http://" target="_blank" rel="noopener noreferrer">Fou you</a></li>
@@ -66,13 +66,13 @@ const Header = () => {
                                         <span className='text-gray-300'>|</span>
                                         <div className="free-btn mx-4 flex items-center border rounded-full px-4 py-1">
                                             <div className="cloud-icon pr-2">
-                                                <img src={adobe_cloude} alt={adobe_cloude} className="w-5 h-5" />
+                                                {/* <img src={adobe_cloude} alt={adobe_cloude} className="w-5 h-5" /> */}
                                             </div>
                                             <a href="">Free Trial</a>
                                         </div>
                                         <div className="adobe-btn mx-4 flex items-center hover:opacity-70">
 
-                                            <img src={adobeLogo} alt={adobeLogo} className="w-5 h-5" />
+                                            {/* <img src={adobeLogo} alt={adobeLogo} className="w-5 h-5" /> */}
                                             <a href="" className='pl-1 font-bold text-black text-sm'> Adobe</a>
                                         </div>
                                     </div>
